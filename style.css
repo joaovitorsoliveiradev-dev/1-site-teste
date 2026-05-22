@@ -185,3 +185,58 @@ footer h3 a{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1050px){
+    .main h1{
+        font-size: 28px;
+    }
+.main p{
+    font-size: 18px;
+}
+.main{
+    background-size: cover;
+}
+
+
+.about{
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+}
+
+.about div{
+    max-width: 80%;
+    padding-right: 0;
+    text-align: center;
+}
+.about div h2{
+    font-size: 28px;
+}
+
+.about img{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.projects h2{
+    font-size: 28px;
+}
+
+.projects p{
+    font-size: 16px;
+    padding: 0;
+}
+
+.projects img{
+    width: 27.5%;
+    
+}
+
+.footer h3 a{
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+}
